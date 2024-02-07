@@ -1,0 +1,174 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    height: 60vh;
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+    color: white;
+
+}
+.header-img{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-img img{
+    width: 100%;
+}
+li{
+    list-style: none;
+    padding: 11px;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+li:hover{
+    color: blue;
+    font-size: 21px;
+    cursor: pointer;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 20px;
+    text-transform: none;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-top: -80px;
+}
+.title{
+    text-align: center;
+}
+.title h2 {
+    font-size: 2rem;
+    margin-top: -10px;
+}
+.title p{
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-top: -20px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 66px;
+    width: 23%;
+    margin-top: 25px;
+}
+.box:hover{
+    color: blue;
+    cursor: pointer;
+}
+pre{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.foot-panel{
+      height: 60px;
+      margin-top: 50px;
+      background-color: whitesmoke;
+      display: flex;
+      justify-content: space-between;
+}
+.img1{
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.img1:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.rab{
+    display: flex;
+    justify-content: right;
+}
+.search-sel{
+    height: 40px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
+.search-sel:hover{
+    background-color: black;
+    color: white;
+}
+.foot-panel2{
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: rgb(88, 87, 87);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    padding: 6px;
+}
+ul{
+    margin-top: 50px;
+}
+p{
+    color: black;
+    font-weight: 700;
+}
+.foot-panel3{
+    overflow: hidden;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+}
+.foot-panel3 p{
+    font-size: 15px;
+}
+.copyright{
+    margin-top: 10px;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+}
+h4{
+    font-weight: lighter;
+}
+.rabin{
+    color: blue;
+}
+.rabin:hover{
+    cursor: wait;
+    font-size: 50px;
+}
